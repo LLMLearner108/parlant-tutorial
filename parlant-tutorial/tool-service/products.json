@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Platinum Rewards Card",
+    "product_id": "CC001",
+    "type": "Mass",
+    "description": "Earn rewards points on every purchase with no annual fee.",
+    "minimum_account_balance": 1000
+  },
+  {
+    "name": "Cashback Plus Card",
+    "product_id": "CC002",
+    "type": "Mass",
+    "description": "Get up to 5% cashback on groceries, dining, and fuel expenses.",
+    "minimum_account_balance": 500
+  },
+  {
+    "name": "Travel Elite Card",
+    "product_id": "CC003",
+    "type": "HNI",
+    "description": "Enjoy complimentary travel insurance and lounge access worldwide.",
+    "minimum_account_balance": 2000
+  },
+  {
+    "name": "Student Advantage Card",
+    "product_id": "CC004",
+    "type": "Student",
+    "description": "Designed for students, offering discounts on books and online subscriptions.",
+    "minimum_account_balance": 100
+  },
+  {
+    "name": "Business Prime Card",
+    "product_id": "CC005",
+    "type": "HNI",
+    "description": "Ideal for small businesses, with higher credit limits and business expense tracking.",
+    "minimum_account_balance": 3000
+  }
+]
