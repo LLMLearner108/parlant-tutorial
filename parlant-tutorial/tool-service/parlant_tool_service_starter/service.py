@@ -36,6 +36,22 @@ async def inquire_eligibility(
     return ToolResult({"eligible_for": products})
 
 @tool
+async def lock_card(
+    context: ToolContext,
+    card_id: int,
+) -> ToolResult:
+    """Given the id of the card, lock the card"""
+    return ToolResult({"card_status": "locked"})
+
+@tool
+async def unlock_card(
+    context: ToolContext,
+    card_id: int,
+) -> ToolResult:
+    """Given the id of the card, unlock the card"""
+    return ToolResult({"card_status": "unlocked"})
+
+@tool
 async def report_incident(
     context: ToolContext,
     incident_type: str,
@@ -52,6 +68,8 @@ TOOLS = [
     get_products_by_type,
     inquire_eligibility,
     report_incident,
+    lock_card,
+    unlock_card
 ]
 
 async def main() -> None:
